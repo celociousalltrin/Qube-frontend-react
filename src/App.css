@@ -1,0 +1,10 @@
+:root {
+  --app-bg: #e6ecf0;
+  --comp-bg: #ffffff;
+  --icon-clr: #677a90;
+  --app-border-clr: #c2cad3;
+}
+
+body {
+  background-color: var(--app-bg);
+}

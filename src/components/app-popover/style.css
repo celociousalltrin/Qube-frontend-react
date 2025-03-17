@@ -1,0 +1,11 @@
+.popover-conatiner {
+  background-color: var(--comp-bg);
+  border: 1px solid #e1e4e9;
+  border-radius: 5px;
+  padding: 0px 5px;
+  width: 125px;
+}
+
+.popover-label {
+  cursor: pointer;
+}

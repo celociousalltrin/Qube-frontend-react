@@ -1,0 +1,36 @@
+.spreadSheet-container {
+  margin: 10px;
+  background-color: var(--comp-bg);
+  border-radius: 8px;
+  padding: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.spreadSheet-header-column {
+  text-align: left;
+  padding: 12px;
+}
+
+.table-head {
+  border-bottom: 1px solid var(--app-border-clr);
+  padding-bottom: 10px;
+}
+
+.table-body-cell {
+  padding: 12px;
+  border-bottom: 1px solid var(--app-border-clr);
+}
+
+.action-button-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #2d5b7a;
+  cursor: pointer;
+}

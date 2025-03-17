@@ -1,0 +1,46 @@
+.detail-container > div {
+  font-size: 14px;
+}
+.detail-container > div > p {
+  margin: 0;
+  padding-top: 3px;
+  font-size: 16px;
+}
+.detail-container {
+  background-color: var(--comp-bg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 68px;
+  padding: 12px 0;
+  border-radius: 3px;
+  margin: 10px;
+}
+.song-heading-Container {
+  display: flex;
+  align-items: center;
+  background-color: var(--comp-bg);
+  height: 68px;
+  margin-bottom: 28px;
+}
+
+.song-heading-Container > h1 {
+  padding-left: 16px;
+}
+
+.breadcrumb-container {
+  padding-left: 16px;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  align-items: center;
+}
+.breadcrumb1 {
+  cursor: pointer;
+  color: #677a90;
+}
+
+.breadcrumb-icon {
+  margin-top: 20px;
+}
